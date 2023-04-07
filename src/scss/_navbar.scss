@@ -1,1 +1,10 @@
-.navbar {}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--primary-one);
+    color: white;
+    height: auto;
+    font-size: 2rem;
+    padding: 0.5rem 0.5rem;
+}
